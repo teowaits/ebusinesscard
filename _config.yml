@@ -12,29 +12,29 @@ sass:
 # When modifying this file, take care to preserve the indentation. This is YAML ...
 
 # Main Headline, name required, subtitle optional
-name: Fuse Core
+name: Matteo Cavalleri
 #subtitle:
-subtitle: Frontend Developer
+subtitle: Quantum Mechanics
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: Fuse Core
+title:
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
 # 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
 robots:
-    description: One line of text describing the content of the page in less than 140 characters.
-    keywords: foo, bar, baz
+    description: Matteo Cavalleri's Personal Website.
+    keywords: matteo, cavalleri, cv
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
-url: https://tsjensen.github.io/fuse-core/
+url: https://teowaits.github.io/ebusinesscard/
 
 # The 'baseurl' is prepended to all website-internal links.
 # 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
 # If not empty, be careful to keep the leading slash, and don't add a slash at the end.
 #baseurl: ''
-baseurl: '/fuse-core'
+baseurl: '/ebusinesscard'
 
 # Enable Google Analytics. Leave empty (just "ga:" with subitems commented out) to disable.
 # In order to comply with EU cookie law, enable 'cookieconsent' to show a little popup asking users to acknowledge the GA cookies.
@@ -42,9 +42,9 @@ baseurl: '/fuse-core'
 # https://support.google.com/analytics/answer/2763052
 #ga:
 ga:
-    account: 'UA-120960520-1'
-    cookieconsent: true
-    anonymizeip: true
+   # account: 'UA-120960520-1'
+   # cookieconsent: true
+   # anonymizeip: true
 
 # Plausible.io Analytics (alternative to Google Analytics that does not need cookies -> no cookie consent required)
 # A config setting is required in plausible to enable tracking of the outbound links. Details described here:
@@ -52,14 +52,14 @@ ga:
 # Leave empty (just "plausible:" with subitems commented out) to disable.
 #plausible:
 plausible:
-    domain: 'tsjensen.github.io'
+  #  domain: 'teowaits.github.io'
 
 
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-avatar: "https://avatars0.githubusercontent.com/u/8897534"
-#avatar: "images/jonathan_doe.jpg"
+#avatar: "https://avatars0.githubusercontent.com/u/8897534"
+avatar: "images/MC.jpeg"
 #avatar:
 
 
@@ -67,35 +67,35 @@ avatar: "https://avatars0.githubusercontent.com/u/8897534"
 # The order of this list controls the order of the links on the page. Feel free to add.
 links:
   - xing:
-      name: Xing
-      show: false
-      href: https://www.xing.com/profile/YOUR_XING_USERNAME/
-      icon: fab fa-xing
+      name: Strava
+      show: true
+      href: https://www.strava.com/athletes/7174722/
+      icon: fab fa-strava
   - linkedin:
       name: LinkedIn
-      show: false
-      href: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME/
+      show: true
+      href: https://www.linkedin.com/in/teowaits/
       icon: fab fa-linkedin
   - googleplus:
-      name: Google+
+      name: Discord
       show: false
       href: https://plus.google.com/+YOUR_GOOGLEPLUS_USERNAME
-      icon: fab fa-google-plus
+      icon: fab fa-discord
   - twitter:
-      name: Twitter
+      name: Orcid
       show: true
       href: https://twitter.com/YOUR_TWITTER_USERNAME
-      icon: fab fa-twitter
+      icon: fab fa-orcid
   - weibo:
-      name: 微博
+      name: Mastodon
       show: true
       href: https://weibo.com/YOUR_WEIBO_USERNAME
-      icon: fab fa-weibo
+      icon: fab fa-mastodon
   - vine:
-      name: Vine
+      name: BlueSky
       show: false
       href: https://vine.co/YOUR_VINE_USERNAME
-      icon: fab fa-vine
+      icon: fas fa-cloud
   - facebook:
       name: Facebook
       show: false
@@ -103,13 +103,13 @@ links:
       icon: fab fa-facebook
   - vkontakte:
       name: ВКонтакте
-      show: true
+      show: false
       href: https://vk.com/YOUR_VK_USERNAME
       icon: fab fa-vk
   - instagram:
       name: Instagram
-      show: false
-      href: https://instagram.com/YOUR_INSTAGRAM_USERNAME
+      show: true
+      href: https://instagram.com/teowaits
       icon: fab fa-instagram
   - flickr:
       name: Flickr
@@ -134,7 +134,7 @@ links:
   - github:
       name: GitHub
       show: true
-      href: https://github.com/tsjensen
+      href: https://github.com/teowaits
       icon: fab fa-github
   - codepen:
       name: CodePen
@@ -158,30 +158,30 @@ links:
       icon: fab fa-medium
   - tumblr:
       name: Tumblr
-      show: false
-      href: https://YOUR_TUMBLR_USERNAME.tumblr.com/
+      show: true
+      href: https://churchesofbroklyn.tumblr.com/
       icon: fab fa-tumblr
   - blog:
       name: Blog
-      show: true
+      show: false
       href: http://host.domain/your_blog
       icon: fas fa-book-open
   - email:
       name: Email
       show: true
-      href: mailto:jonathan.doe@host.domain
+      href: mailto:matteo@cavalleri.eu
       icon: fas fa-envelope
   - publickey:
       name: PGP Key
-      show: true
+      show: false
       href: https://pastebin.com/raw/YOUR_PUBLIC_KEY
       icon: fas fa-key
 
 
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
-extra_html: >
-    Any (multiline) text containing simple HTML,
-    such as links or ... lorem ipsum.
+#extra_html: >
+ #   Any (multiline) text containing simple HTML,
+ #   such as links or ... lorem ipsum.
 
 #EOF
