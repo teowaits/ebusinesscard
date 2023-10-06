@@ -3,7 +3,7 @@ Personal e-Business Card
 # Based on Fuse Core by Tsjensen
 
 [![Screenshot](README.pic1.jpg)](https://tsjensen.github.io/fuse-core/)
-[![Screenshot](README.picneu.jpeg)](https://teowaits.github.io/ebusinesscard/)
+[![Screenshot](README.pickneu.jpeg)](https://teowaits.github.io/ebusinesscard/)
 
 ## Other Credits
 
