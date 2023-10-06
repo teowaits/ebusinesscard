@@ -14,10 +14,10 @@ sass:
 # Main Headline, name required, subtitle optional
 name: Matteo Cavalleri
 #subtitle:
-subtitle: Quantum Mechanics
+subtitle: Quantum Mechanic
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: Matteo Cavalleri, Quantum Mechanics
+title: Matteo Cavalleri, Quantum Mechanic
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
@@ -174,7 +174,7 @@ links:
 
 
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
-#extra_html:
+#extra_html: 
 #extra_html: >
  #   Any (multiline) text containing simple HTML,
  #   such as links or ... lorem ipsum.
