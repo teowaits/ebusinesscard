@@ -17,7 +17,7 @@ name: Matteo Cavalleri
 subtitle: Quantum Mechanics
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: 
+title: Matteo Cavalleri, Quantum Mechanics
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
@@ -109,12 +109,12 @@ links:
   - tumblr:
       name: Tumblr
       show: true
-      href: https://churchesofbroklyn.tumblr.com/
+      href: https://churchesofbrooklyn.tumblr.com/
       icon: fab fa-tumblr
   - strava:
       name: Strava
       show: true
-      href: https://www.strava.com/athletes/7174722/
+      href: https://www.strava.com/athletes/3751640/
       icon: fab fa-strava
   - facebook:
       name: Facebook
