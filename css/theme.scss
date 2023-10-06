@@ -33,6 +33,13 @@ div.fuse-core-content {
     color: white;
 }
 
+/* Add the following style for images (including SVG) */
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
 
 /* --------- Avatar ---------------------------------------------------------------------------- */
 
