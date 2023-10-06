@@ -81,6 +81,11 @@ links:
       show: true
       href: https://orcid.org/0000-0002-7925-928X
       icon: fab fa-orcid
+  - authorea:
+      name: Authorea
+      show: true
+      href: https://www.authorea.com/users/245948-matteo-cavalleri
+      icon: images/icons/Authorea_icon.png
   - github:
       name: GitHub
       show: true
@@ -94,7 +99,7 @@ links:
   - discord:
       name: Discord
       show: true
-      href: https://discordapp.com/users/USERID
+      href: https://discordapp.com/users/teowaits
       icon: fab fa-discord
   - mastodon:
       name: Mastodon
