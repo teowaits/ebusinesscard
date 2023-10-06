@@ -17,7 +17,7 @@ name: Matteo Cavalleri
 subtitle: Quantum Mechanics
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: Matteo Cavalleri  Quantum Mechanics
+title: 
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
@@ -66,17 +66,17 @@ avatar: "images/MC.jpeg"
 # All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
 # The order of this list controls the order of the links on the page. Feel free to add.
 links:
-   - email:
+  - email:
       name: Email
       show: true
       href: mailto:matteo@cavalleri.eu
       icon: fas fa-envelope
-- linkedin:
+  - linkedin:
       name: LinkedIn
       show: true
       href: https://www.linkedin.com/in/teowaits/
       icon: fab fa-linkedin
-   - orcid:
+  - orcid:
       name: Orcid
       show: true
       href: https://orcid.org/0000-0002-7925-928X
@@ -86,7 +86,7 @@ links:
       show: true
       href: https://github.com/teowaits
       icon: fab fa-github
-    - bsky:
+  - bsky:
       name: BlueSky
       show: true
       href: https://bsky.app/profile/physicsteo.bsky.social
@@ -101,7 +101,7 @@ links:
       show: true
       href: https://mastodon.online/@physicsteo
       icon: fab fa-mastodon
-- instagram:
+  - instagram:
       name: Instagram
       show: true
       href: https://instagram.com/teowaits
