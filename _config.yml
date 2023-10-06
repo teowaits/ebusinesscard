@@ -85,7 +85,7 @@ links:
       name: Authorea
       show: true
       href: https://www.authorea.com/users/245948-matteo-cavalleri
-      icon: /images/icons/Authorea_icon.svg
+      icon: /images/icons/Authorea_16x16.png
   - github:
       name: GitHub
       show: true

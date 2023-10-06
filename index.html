@@ -88,7 +88,7 @@ permalink: /
         <div class="col-xs-12 col-sm-2 col-lg-1 px-3 px-sm-0 mt-2 mt-sm-3 text-sm-center">
           <a href="{{ linkInfo[1].href }}" {% if site.ga %}onclick="trackOutboundLink('{{ linkInfo[1].name }}', '{{ linkInfo[1].href }}'); return false;"{% endif %}>
             {% if linkInfo[1].icon contains '.svg' %}
-              <img src="{{ site.baseurl }}{{ linkInfo[1].icon }}" alt="{{ linkInfo[1].name }}" class="fa-fw" />
+              <img src="{{ site.baseurl }}{{ linkInfo[1].icon }}" alt="{{ linkInfo[1].name }}" class="fa-fw local-icon" />
             {% else %}
               <i class="{{ linkInfo[1].icon }} fa-fw"></i>
             {% endif %}
