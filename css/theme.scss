@@ -111,9 +111,10 @@ div.row.links {
 
 /* Container styles for local icons */
 .local-icon-container {
+  display: inline-block; /* Ensures the container size is based on content */
   border-radius: 50%;
-  padding: 50px; /* Adjust as needed */
-  margin: 50px; /* Adjust as needed */
+  padding: 20px; /* Adjust as needed */
+  margin: 10px; /* Adjust as needed */
 }
 
 /* --------- Extra HTML ------------------------------------------------------------------------ */
