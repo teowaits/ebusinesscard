@@ -104,10 +104,7 @@ div.row.links {
 
 /* --------- Local Icons Style ----------------------------------------------------------------- */
 
-.local-icon {
-  width: 1em; /* Adjust the width to match the Font Awesome icons */
-  height: 1em; /* Adjust the height accordingly */
-}
+
 
 /* --------- Extra HTML ------------------------------------------------------------------------ */
 
@@ -125,6 +122,10 @@ div.row.links {
             background-color: rgba(0, 0, 0, 0.6);
         }
     }
+        .local-icon {
+        width: 1em; /* Adjust the width to match the Font Awesome icons */
+        height: 1em; /* Adjust the height accordingly */
+      }
 }
 
 
