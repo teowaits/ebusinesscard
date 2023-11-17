@@ -66,6 +66,11 @@ avatar: "images/MC.jpeg"
 # All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
 # The order of this list controls the order of the links on the page. Feel free to add.
 links:
+  - authorea:
+      name: Authorea
+      show: true
+      href: https://www.authorea.com/users/245948-matteo-cavalleri
+      icon: /images/icons/Authorea_icon.svg
   - email:
       name: Email
       show: true
@@ -81,11 +86,6 @@ links:
       show: true
       href: https://orcid.org/0000-0002-7925-928X
       icon: fab fa-orcid
-  - authorea:
-      name: Authorea
-      show: true
-      href: https://www.authorea.com/users/245948-matteo-cavalleri
-      icon: /images/icons/Authorea_16x16.png
   - github:
       name: GitHub
       show: true
