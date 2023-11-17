@@ -102,16 +102,32 @@ div.row.links {
     }
         /* Container styles for local icons */
         .local-icon-container {
-            display: inline-block; /* Ensures the container size is based on content */
+            color: white;
             border-radius: 100%;
-            padding: 50%; /* Adjust as needed */
-            margin: 50%; /* Adjust as needed */
+            border: 2px solid white;
+            display: inline-block;
+            font-size: 1.8em;
+            line-height: 1em;
+            overflow: hidden;
+          
+            @media (max-width: 575.98px) {  /* used on bootstrap size 'xs' */
+              border-radius: 10px;
+              width: 100%;
+            }
+          
+            &:hover {
+              text-decoration: none;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              transition: 300ms;
+              background-color: rgba(0, 0, 0, 0.5);
+            }
           
             .local-icon {
-                width: 1em; /* Adjust the width to match the Font Awesome icons */
-                height: 1em; /* Adjust the height accordingly */
-              }
+              display: inline-block;
+              margin: 16px 12px;
             }
+          }
 }
 
 
