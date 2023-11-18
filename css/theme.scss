@@ -105,6 +105,7 @@ div.row.links {
             color: white;
             border-radius: 100%;
             border: 2px solid white;
+            padding: 5cm;
             display: inline-block;
             font-size: 1.8em;
             line-height: 1em;
@@ -126,8 +127,7 @@ div.row.links {
             .local-icon {
               display: inline-block;
               margin: 16px 12px;
-            padding: 5cm;
-        }
+            }
             > span {
                 margin-right: 15px;
             }
