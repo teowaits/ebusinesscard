@@ -70,12 +70,12 @@ links:
       name: Authorea
       show: true
       href: https://www.authorea.com/users/245948-matteo-cavalleri
-      icon: /images/icons/Authorea_icon.svg
+      icon: fab fa-newspaper
   - email:
       name: Email
       show: true
       href: mailto:matteo@cavalleri.eu
-      icon: /images/icons/envelope-solid.svg
+      icon: fab fa-envelope 
   - linkedin:
       name: LinkedIn
       show: true
