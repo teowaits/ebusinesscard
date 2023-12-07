@@ -75,7 +75,7 @@ links:
       name: Email
       show: true
       href: mailto:matteo@cavalleri.eu
-      icon: fab fa-envelope 
+      icon: fab fa-envelope
   - linkedin:
       name: LinkedIn
       show: true
